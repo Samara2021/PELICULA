@@ -1,0 +1,306 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Microsoft.NETCore.Platforms/6.0.0-preview.2.21154.6": {},
+      "Microsoft.Win32.Registry/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0-preview.2.21154.6",
+          "System.Security.Principal.Windows": "6.0.0-preview.2.21154.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.2.21154.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "6.0.0-preview.2.21154.6",
+          "System.Security.Permissions": "6.0.0-preview.2.21154.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      },
+      "System.Data.OleDb/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "6.0.0-preview.2.21154.6",
+          "System.Configuration.ConfigurationManager": "6.0.0-preview.2.21154.6",
+          "System.Diagnostics.PerformanceCounter": "6.0.0-preview.2.21154.6",
+          "System.Security.Principal.Windows": "6.0.0-preview.2.21154.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.OleDb.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Data.OleDb.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      },
+      "System.Diagnostics.PerformanceCounter/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.2.21154.6",
+          "Microsoft.Win32.Registry": "6.0.0-preview.2.21154.6",
+          "System.Configuration.ConfigurationManager": "6.0.0-preview.2.21154.6",
+          "System.Security.Principal.Windows": "6.0.0-preview.2.21154.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      },
+      "System.Drawing.Common/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0-preview.2.21154.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      },
+      "System.Security.AccessControl/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "6.0.0-preview.2.21154.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/6.0.0-preview.2.21154.6": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      },
+      "System.Security.Permissions/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0-preview.2.21154.6",
+          "System.Windows.Extensions": "6.0.0-preview.2.21154.6"
+        },
+        "runtime": {
+          "lib/net5.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/6.0.0-preview.2.21154.6": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      },
+      "System.Windows.Extensions/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0-preview.2.21154.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.NETCore.Platforms/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F9kyjXpacc1dz2iRFFO3+m1qqYEbYjTz0L9fa1StyjXyYdpCqmqQWrBk1FGqNd0RPpkPoq9P0ZJoptRYpu64lw==",
+      "path": "microsoft.netcore.platforms/6.0.0-preview.2.21154.6",
+      "hashPath": "microsoft.netcore.platforms.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EkqgePfJDNZHGxqlWqhdFXA8m7gfYvexhfUvcctSpgMu/oud/gTQ1nsYzHi9CNoJLyaMCaLb6W8wt6EAYp4HQQ==",
+      "path": "microsoft.win32.registry/6.0.0-preview.2.21154.6",
+      "hashPath": "microsoft.win32.registry.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CqMKCb75xr4mJmT6Hh0WkJwE4AN5j0dSaol/5yG/4lyYI34kcqnqYMJglsDe4KVmjwd15IzZR1pcxaUoP/JQQg==",
+      "path": "microsoft.win32.systemevents/6.0.0-preview.2.21154.6",
+      "hashPath": "microsoft.win32.systemevents.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T+brfY85wmi1YrK0+dW7hxLfYofX3Jn/JepXTPbVxjJI4d+im7fe6LVTDjPFP0DBKSnwcURR8bu6tn/WCo/x+w==",
+      "path": "system.configuration.configurationmanager/6.0.0-preview.2.21154.6",
+      "hashPath": "system.configuration.configurationmanager.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "System.Data.OleDb/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oy+3NSkZ91KrCtv8bNSRzTydQ1gu8BpfRByLhMtFY6DClLXFGsZf548gSma8AUz1X0kmUBjxBzRI9RU1Ei5L2Q==",
+      "path": "system.data.oledb/6.0.0-preview.2.21154.6",
+      "hashPath": "system.data.oledb.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "System.Diagnostics.PerformanceCounter/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MBKfEXiLgj0IyIEEGyJcISXG0/L7+N5KfbUCY67FOUWu/DF4Gjon3FZLEf+l9a1wOOFaVXG1doIxjRYmdM5n+Q==",
+      "path": "system.diagnostics.performancecounter/6.0.0-preview.2.21154.6",
+      "hashPath": "system.diagnostics.performancecounter.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K/Ncl3LRS8oZdOFfzYw7dA1q7HUbsoP4Bpqlhs54NIK5xqBpYkuHCy8SMcsG7U1ibc0mSz1kYA9njG5xW3i1gg==",
+      "path": "system.drawing.common/6.0.0-preview.2.21154.6",
+      "hashPath": "system.drawing.common.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "System.Security.AccessControl/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kkm1j4dNf8RsV6lrJrWHCF3K+zXnPlvVWBE7fSXtbGNmwU23HghcsBi138/pH1Wk4eCZGki8mAVS6AjSEVlwXA==",
+      "path": "system.security.accesscontrol/6.0.0-preview.2.21154.6",
+      "hashPath": "system.security.accesscontrol.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k7tXThZXhd1grEcCkkIHkB2lSzw7H9+0GDUqwKGTFZkRIyoXEj04YB6HKpB90XTtif9KFFVex+EdziMiZzEKng==",
+      "path": "system.security.cryptography.protecteddata/6.0.0-preview.2.21154.6",
+      "hashPath": "system.security.cryptography.protecteddata.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "System.Security.Permissions/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QDuqaefEFaYeknurOvsjU05hXpgbIoDzeqA6s8pEskEf4VP2rApPSE3IA7INmdLBnfKENVPmQsj+jrgUXjOfTw==",
+      "path": "system.security.permissions/6.0.0-preview.2.21154.6",
+      "hashPath": "system.security.permissions.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t4WCYsdAia8A9jwU55Xg0slxdbnMHLXceyCPc9DZuDVs4jhZzYouFRwNaO6d5RiIi1TTYlZNGbn4SwW+xuLq+g==",
+      "path": "system.security.principal.windows/6.0.0-preview.2.21154.6",
+      "hashPath": "system.security.principal.windows.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "System.Windows.Extensions/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qOzgPiyAPMbW8i11xAXR20P2JKnygk9W33NgZsHQU6gdXIvXUnx2ENW8KEAj5L8qeummxgSG6uBM0c/Dmq4YMw==",
+      "path": "system.windows.extensions/6.0.0-preview.2.21154.6",
+      "hashPath": "system.windows.extensions.6.0.0-preview.2.21154.6.nupkg.sha512"
+    }
+  }
+}
